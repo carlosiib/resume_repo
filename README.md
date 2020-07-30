@@ -1,3 +1,3 @@
 ## Online Portfolio
 
-This is my online portfolio
+Online portfolio

@@ -74,9 +74,9 @@ const About = (props) => {
           <i>
             <FontAwesomeIcon icon={faGitAlt} color="red" />
           </i>
-          <i>
+          {/* <i>
             <FontAwesomeIcon icon={faNodeJs} color="red" />
-          </i>
+          </i> */}
         </div>
       </div>
     </div>
