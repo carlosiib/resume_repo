@@ -24,9 +24,7 @@ const About = (props) => {
             <p className="card-title">Who am I</p>
             <p className="main-content">
               <p>
-                Hi, I'm Carlos Ibarra, a passionate
-                developer that enjoys working with
-                <span>frontend</span> technologies.
+                Hi, I'm Carlos Ibarra, a passionate developer that enjoys working with <span>frontend</span> technologies.
               </p>
 
               <p>
