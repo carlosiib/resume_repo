@@ -58,7 +58,7 @@ const Nav = () => {
           RESUME
         </NavLink> */}
         <a
-          href="https://drive.google.com/file/d/17Z4TSH8Ucnw-J1hpq-Y-UPzffLsuMXpi/view"
+          href="https://drive.google.com/file/d/1ZFWzFzLIQaVZ4Wlze4nhFfz9du0Bhfi6/view"
           className="nav-list-item__resume"
           target="_blank"
         >
@@ -103,7 +103,7 @@ const Nav = () => {
               RESUME
             </NavLink> */}
             <a
-              href="https://drive.google.com/file/d/17Z4TSH8Ucnw-J1hpq-Y-UPzffLsuMXpi/view"
+              href="https://drive.google.com/file/d/1ZFWzFzLIQaVZ4Wlze4nhFfz9du0Bhfi6/view"
               className="nav-list-item__resume-drawer"
               target="_blank"
             >
