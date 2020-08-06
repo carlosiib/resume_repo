@@ -2,4 +2,4 @@
 Online portfolio.
 
 ## Production app
-[Resume](https://app.netlify.com/)
+[Resume](https://carlosiib.netlify.app/)
