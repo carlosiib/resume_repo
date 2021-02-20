@@ -10,7 +10,7 @@ import {
   faGitAlt,
 } from "@fortawesome/free-brands-svg-icons";
 
-import profile from "./assets/profilepic.png";
+import profile from "./assets/profile.png";
 
 import "./About.css";
 
@@ -44,10 +44,7 @@ const About = (props) => {
                 my daily life.
               </p>
 
-              <p>
-                Right now I'm concluding my bachelor's
-                degree in Information Systems Engineering.
-              </p>
+
             </p>
           </div>
         </div>
@@ -67,10 +64,10 @@ const About = (props) => {
           </i>
 
           <i>
-            <FontAwesomeIcon icon={faReact} color="red" />
+            <FontAwesomeIcon icon={faGitAlt} color="red" />
           </i>
           <i>
-            <FontAwesomeIcon icon={faGitAlt} color="red" />
+            <FontAwesomeIcon icon={faReact} color="red" />
           </i>
           {/* <i>
             <FontAwesomeIcon icon={faNodeJs} color="red" />

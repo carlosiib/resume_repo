@@ -1,7 +1,7 @@
 import React from "react";
 import mern from "../comp/assets/mern.png";
 import rcg from "../comp/assets/rcg.png";
-import af from "../comp/assets/af.png";
+import fengshui from "../comp/assets/fengshui.png";
 
 import "./CardItem.css";
 
@@ -9,32 +9,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faNodeJs,
   faReact,
-  faHtml5,
-  faCss3Alt,
   faGitAlt,
 } from "@fortawesome/free-brands-svg-icons";
 
 const CardItem = () => {
   return (
     <React.Fragment>
+
+
       <div className="citem-wrapper">
         <div className="citem-content">
           <div className="citem-img">
-            <img src={mern} alt="Mern project"></img>
+            <img src={fengshui} alt="arlene ruiz"></img>
           </div>
-          <h3 className="citem-title">MERN App</h3>
+          <h3 className="citem-title">Arlene Ruiz Fengshui</h3>
           <p className="citem-description">
-            Final project applying MERN stack technologies
-            that allow users to create, view and edit places
-            of interest.
+            Development of a service to process online payments through Stripe.
+            Creation of functionalities for administrator users.
           </p>
+
           <div className="technologies">
             <i>
               <FontAwesomeIcon icon={faReact} color="red" />
             </i>
             <i>
               <FontAwesomeIcon
-                icon={faNodeJs}
+                icon={faGitAlt}
                 color="red"
               />
             </i>
@@ -68,31 +68,37 @@ const CardItem = () => {
         </div>
       </div>
 
+
       <div className="citem-wrapper">
         <div className="citem-content">
           <div className="citem-img">
-            <img src={af} alt="Allien Fitness"></img>
+            <img src={mern} alt="RCG Bikes"></img>
           </div>
-          <h3 className="citem-title">Allien Fitness</h3>
+          <h3 className="citem-title">MERN App</h3>
           <p className="citem-description">
-            Proposal of a web page to a local gym for better
-            online presence, promote, sell services and get
-            more local reach.
+            Personal project applying MERN stack technologies
+            that allow users to create, view and edit places
+            of interest.
           </p>
 
           <div className="technologies">
             <i>
-              <FontAwesomeIcon icon={faHtml5} color="red" />
+              <FontAwesomeIcon icon={faReact} color="red" />
             </i>
             <i>
               <FontAwesomeIcon
-                icon={faCss3Alt}
+                icon={faGitAlt}
                 color="red"
               />
             </i>
           </div>
         </div>
       </div>
+
+
+
+
+
     </React.Fragment>
   );
 };
